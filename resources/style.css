@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Arial-MT' ;
+    src: url('../fonts/ari.ttf') format('truetype');
+}
+
+/* UNIVERSAL STYLES */
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "Arial-MT", sans-serif;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    transition: .3s;
+}
+
+a:hover {
+    color: black;
+    opacity: .6;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input,
+textarea,
+select {
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 1rem;
+}
+
+/* BUTTON */
+
+.button {
+    font-weight: bold;
+    color: white;
+    background-color: forestgreen;
+    border-radius: 3px;
+    text-align: center;
+    padding: 8px 16px;
+    transition: .25s;
+}
+
+.button:hover {
+    color: white;
+    background-color: forestgreen;
+    opacity: .8;
+}
+
+/* IMAGE CONTAINER */
+
+.image-container {
+    overflow: hidden;
+}
+
+.image-container img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* HEADER */
+
